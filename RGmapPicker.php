@@ -70,7 +70,7 @@ class RGmapPicker extends CInputWidget
         Yii::app()->clientScript
                   ->registerCssFile($this->assetsDir . '/css/jquery-gmaps-latlon-picker.css')
                   ->registerCss('gllMap', $mapSize)
-                  ->registerScriptFile('http://maps.googleapis.com/maps/api/js?sensor=false', CClientScript::POS_END, 1)
-                  ->registerScriptFile($this->assetsDir . '/js/jquery-gmaps-latlon-picker.js', CClientScript::POS_END, 2);
+                  ->registerScriptFile('http://maps.googleapis.com/maps/api/js?sensor=false', CClientScript::POS_END)
+                  ->registerScriptFile($this->assetsDir . '/js/jquery-gmaps-latlon-picker.js', CClientScript::POS_END);
     }
 }
