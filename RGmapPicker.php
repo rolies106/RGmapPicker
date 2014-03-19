@@ -18,7 +18,7 @@ class RGmapPicker extends CInputWidget
 
     # GMAP init location
     public $map_latitude = '-6.2';
-    public $map_longtitude = '106.8';
+    public $map_longitude = '106.8';
     public $map_location_name = '';
 
     public $htmlOptions = array();

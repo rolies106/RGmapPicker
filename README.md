@@ -1,6 +1,6 @@
 # RGmapPicker
 
-This is Yii extension for GMap latitude and longtitude picker as form component, this extension is based on [JQuery GMap Longtitude and Latitude Picker](https://github.com/wimagguc/jquery-latitude-longitude-picker-gmaps) by [Richard Dancsi](http://www.wimagguc.com/) you can see [live demo here](http://www.wimagguc.com/projects/jquery-latitude-longitude-picker-gmaps/).
+This is Yii extension for GMap latitude and longitude picker as form component, this extension is based on [JQuery GMap Longitude and Latitude Picker](https://github.com/wimagguc/jquery-latitude-longitude-picker-gmaps) by [Richard Dancsi](http://www.wimagguc.com/) you can see [live demo here](http://www.wimagguc.com/projects/jquery-latitude-longitude-picker-gmaps/).
 
 ## Requirement
 
@@ -24,7 +24,7 @@ $this->widget('ext.RGmapPicker.RGmapPicker',
                     'map_width' => 670,
                     'map_height' => 300,
                     'map_latitude' => '-6.2', # Your default position
-                    'map_longtitude' => '106', # Your default position
+                    'map_longitude' => '106', # Your default position
                     'map_location_name' => 'Default position name',
                 )
             );
